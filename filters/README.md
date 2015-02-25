@@ -1,4 +1,4 @@
 # gorkaeff.github.io
-# views folder
+# filters folder
 
-Contains all html of application
+Contains angular filters of application if I needed

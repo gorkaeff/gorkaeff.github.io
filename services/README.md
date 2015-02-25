@@ -1,4 +1,4 @@
 # gorkaeff.github.io
-# views folder
+# services folder
 
-Contains all html of application
+Contains services of application

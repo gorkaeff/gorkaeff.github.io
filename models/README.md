@@ -1,4 +1,4 @@
 # gorkaeff.github.io
-# views folder
+# models folder
 
-Contains all html of application
+Contains models of application

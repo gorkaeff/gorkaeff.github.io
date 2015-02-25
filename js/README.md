@@ -1,4 +1,4 @@
 # gorkaeff.github.io
-# views folder
+# js folder
 
-Contains all html of application
+Contains app.js and others javascript files of application

@@ -1,4 +1,4 @@
 # gorkaeff.github.io
-# views folder
+# directives folder
 
-Contains all html of application
+Create all angular directives of application

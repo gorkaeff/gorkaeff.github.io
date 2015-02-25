@@ -1,4 +1,5 @@
 # gorkaeff.github.io
-# views folder
+# common folder
 
-Contains all html of application
+Contains all common files of application.
+HTML partials if I need in a directive, for example

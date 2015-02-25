@@ -1,4 +1,4 @@
 # gorkaeff.github.io
-# views folder
+# controllers folder
 
-Contains all html of application
+Contains angular controllers of application. They have the route and the view (template) to render the content

@@ -1,4 +1,4 @@
 # gorkaeff.github.io
-# views folder
+# assets folder
 
-Contains all html of application
+Contains all images of my project

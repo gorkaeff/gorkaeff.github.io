@@ -1,4 +1,4 @@
 # gorkaeff.github.io
-# views folder
+# lib folder
 
-Contains all html of application
+Contains all libs that my project needs

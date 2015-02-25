@@ -1,4 +1,4 @@
 # gorkaeff.github.io
-# views folder
+# css folder
 
-Contains all html of application
+Contains all styles (css) of application
