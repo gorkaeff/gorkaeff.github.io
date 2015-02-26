@@ -3,9 +3,10 @@
 // Declare app level module which depends on views, and components
 angular.module('myApp', [
   'ngRoute',
-  'myApp.menu',
-  'myApp.home',
-  'myApp.contact',
+  'myApp.menuCtrl',
+  'myApp.homeCtrl',
+  'myApp.contactCtrl',
+  'myApp.menuService',
   'ui.bootstrap',
   'myApp.directives',
   'pascalprecht.translate'
@@ -17,7 +18,11 @@ config(['$routeProvider', '$translateProvider', function($routeProvider, $transl
 		suffix: '.json'
 	});
 
-	$translateProvider.preferredLanguage('es');
+  if (navigator.language.substring(0,2) == "es"){
+    $translateProvider.preferredLanguage('es');
+  } else {
+    $translateProvider.preferredLanguage('en');
+  }
 
 	$routeProvider.otherwise({redirectTo: '/'});
 }]);
