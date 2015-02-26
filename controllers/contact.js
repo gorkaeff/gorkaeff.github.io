@@ -9,6 +9,6 @@ angular.module('myApp.contact', ['ngRoute'])
   });
 }])
 
-.controller('ContactCtrl', [function() {
+.controller('ContactCtrl', function() {
 
-}]);
+});

@@ -1,0 +1,18 @@
+{
+	"general" : {
+	
+	},
+	"menu" : {
+		"titleProject" : "gorkaef.github.io",
+		"home" : "Home",
+		"contact" : "Contact"
+	},
+ 	"home" : {
+ 		"title" : "Home",
+ 		"subtitle" : "Welcome to my personal web page"
+	},
+	"contact" : {
+		"title" : "Contact",
+		"subtitle" : "Contact information about developer" 
+	}
+}
