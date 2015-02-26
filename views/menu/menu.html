@@ -14,8 +14,8 @@
         <li ng-repeat="item in generateMenu"><a href="{{item.url}}" translate>{{item.tag}}</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a ng-click="changeLang('es')" ng-show="!spanish">Spanish</a></li>
-        <li><a ng-click="changeLang('en')" ng-show="spanish">English</a></li>
+        <img class="lang" ng-src="assets/img/lang_es.png" ng-click="changeLang('es')" ng-show="!spanish"></img>
+        <img class="lang" ng-src="assets/img/lang_en.png" ng-click="changeLang('en')" ng-show="spanish"></img>
       </ul>
     </div>
   </div>
