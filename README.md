@@ -1,3 +1,3 @@
 # gorkaeff.github.io
 
-See my <a href="http://gorkaeff.github.io/">webpage</a>
+You can visit the webpage of this repository <a href="http://gorkaeff.github.io/">here</a>!.
