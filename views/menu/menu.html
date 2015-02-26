@@ -13,6 +13,10 @@
       <ul class="nav navbar-nav">
         <li ng-repeat="item in generateMenu"><a href="{{item.url}}" translate>{{item.tag}}</a></li>
       </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a ng-click="changeLang('es')">Spanish</a></li>
+        <li><a ng-click="changeLang('en')">English</a></li>
+      </ul>
     </div>
   </div>
 </nav>
