@@ -1,4 +1,11 @@
-# gorkaeff.github.io
 # services folder
 
-Contains services of application
+<p>MenuService</p>
+<ul>
+	<li>getMenu()</li>
+</ul>
+<hr />
+<p>SkillService</p>
+<ul>
+	<li>getSkills()</li>
+</ul>
