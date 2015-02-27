@@ -9,7 +9,14 @@
 	},
  	"home" : {
  		"slogan" : "Web sofware and mobile Developer",
- 		"skills" : "Skills"
+ 		"skills" : "Software & languages most used for development",
+ 		"table_skill_name" :  "Skill",
+ 		"table_skill_value" : "knowledge",
+ 		"table_skill_description" : "Description",
+ 		"description_angularjs" : "Description about AngularJS",
+ 		"description_phonegap" : "Description about Phonegap",
+ 		"description_java" : "Description about Java",
+ 		"description_php" : "Description about PHP"
 	},
 	"contact" : {
 		"title" : "Contact",

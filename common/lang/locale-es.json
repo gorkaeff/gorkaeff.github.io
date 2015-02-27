@@ -9,7 +9,14 @@
 	},
  	"home" : {
  		"slogan" : "Desarrollador de software web y multiplataforma",
- 		"skills" : "Software empleado"
+ 		"skills" : "Sofware / lenguages más utilizados para el desarrollo de aplicaciones",
+ 		"table_skill_name" :  "Tecnología",
+ 		"table_skill_value" : "Conocimientos",
+ 		"table_skill_description" : "Descripción",
+ 		"description_angularjs" : "Descripción sobre AngularJS",
+ 		"description_phonegap" : "Descripción sobre Phonegap",
+ 		"description_java" : "Descripción sobre Java",
+ 		"description_php" : "Descripción sobre PHP"
 	},
 	"contact" : {
 		"title" : "Contacto",

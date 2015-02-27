@@ -4,13 +4,21 @@
 		<p class="lead" translate>home.slogan</p>
 		<hr />
 		<p>{{'home.skills' | translate}}</p>
-		<ul class="list-group">
-			<li class="list-group-item" ng-repeat="skill in skills">
-				<div class="row">
-					<div class="col-xs-6">{{skill.name}}:</div>
-					<div class="col-xs-6"><rating ng-model="skill.value" max="10" readonly="true"></rating></div>
-				</div> 
-			</li>
-		</ul>
+		<table class="table">
+			<thead>
+				<tr>
+					<th translate>home.table_skill_name</th>
+					<th translate>home.table_skill_value</th>
+					<th translate>home.table_skill_description</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="skill in skills">
+					<td>{{skill.name}}</td>
+					<td><rating ng-model="skill.value" max="10" readonly="true"></rating></td>
+					<td translate>{{skill.description}}</td>
+				</tr>
+			</tbody>
+		</table>
 	</div>
 </div>

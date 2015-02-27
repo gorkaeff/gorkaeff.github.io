@@ -7,6 +7,10 @@ body {
   text-align: center;
 }
 
+.starter-template .table{
+	text-align: left;
+}
+
 .lang{
     height: 30px;
     margin-top: 10px;
