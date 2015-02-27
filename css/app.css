@@ -12,3 +12,16 @@ body {
     margin-top: 10px;
     width: 40px;
 }
+
+.myname{
+	font-family: cursive; 
+}
+
+.jumbotron{
+	background: #F5EEE5;
+}
+
+.list-group-item {
+    background-color: #F5EEE5;
+    border: none;
+}

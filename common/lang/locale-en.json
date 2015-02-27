@@ -8,8 +8,8 @@
 		"contact" : "Contact"
 	},
  	"home" : {
- 		"title" : "Home",
- 		"subtitle" : "Welcome to my personal web page"
+ 		"slogan" : "Web sofware and mobile Developer",
+ 		"skills" : "Skills"
 	},
 	"contact" : {
 		"title" : "Contact",

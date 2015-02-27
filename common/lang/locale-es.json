@@ -8,8 +8,8 @@
 		"contact" : "Contacto"
 	},
  	"home" : {
- 		"title" : "Inicio",
- 		"subtitle" : "Bienvenido a mi página personal"
+ 		"slogan" : "Desarrollador de software web y multiplataforma",
+ 		"skills" : "Software empleado"
 	},
 	"contact" : {
 		"title" : "Contacto",

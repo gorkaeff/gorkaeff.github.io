@@ -1,4 +1,16 @@
 <div class="starter-template">
-	<h1 translate>home.title</h1>
-	<p class="lead" translate>home.subtitle</p>
+	<div class="jumbotron">
+		<h1 class="myname"><img ng-src="assets/img/me.png"></img>Gorkaeff</h1>
+		<p class="lead" translate>home.slogan</p>
+		<hr />
+		<p>{{'home.skills' | translate}}</p>
+		<ul class="list-group">
+			<li class="list-group-item" ng-repeat="skill in skills">
+				<div class="row">
+					<div class="col-xs-6">{{skill.name}}:</div>
+					<div class="col-xs-6"><rating ng-model="skill.value" max="10" readonly="true"></rating></div>
+				</div> 
+			</li>
+		</ul>
+	</div>
 </div>

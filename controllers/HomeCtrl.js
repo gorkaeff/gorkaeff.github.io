@@ -9,6 +9,6 @@ angular.module('myApp.homeCtrl', ['ngRoute'])
   });
 }])
 
-.controller('HomeCtrl', function($scope) {
-
+.controller('HomeCtrl', function($scope, $translate, SkillService) {
+	$scope.skills = SkillService.getSkills();
 });

@@ -7,6 +7,7 @@ angular.module('myApp', [
   'myApp.homeCtrl',
   'myApp.contactCtrl',
   'myApp.menuService',
+  'myApp.skillService',
   'ui.bootstrap',
   'myApp.directives',
   'pascalprecht.translate'
