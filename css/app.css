@@ -29,3 +29,7 @@ body {
     background-color: #F5EEE5;
     border: none;
 }
+
+.borderno{
+  border: none !important;
+}

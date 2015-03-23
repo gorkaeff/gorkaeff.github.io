@@ -14,9 +14,15 @@
  		"table_skill_value" : "Conocimientos",
  		"table_skill_description" : "Descripción",
  		"description_angularjs" : "Descripción sobre AngularJS",
+ 		"description_rails" : "Descripción sobre rails",
+ 		"description_javascript" : "Descripción sobre javascript",
  		"description_phonegap" : "Descripción sobre Phonegap",
  		"description_java" : "Descripción sobre Java",
- 		"description_php" : "Descripción sobre PHP"
+ 		"description_php" : "Descripción sobre PHP",
+ 		"android_developer_account": "Cuenta desarrollador para Android",
+ 		"ios_developer_account": "Cuenta desarrollador para iOS",
+ 		"github_link" : "Cuenta de Github",
+ 		"web_link" : "Páginas web"
 	},
 	"contact" : {
 		"title" : "Contacto",

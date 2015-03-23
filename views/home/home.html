@@ -15,10 +15,31 @@
 			<tbody>
 				<tr ng-repeat="skill in skills">
 					<td>{{skill.name}}</td>
-					<td><rating ng-model="skill.value" max="10" readonly="true"></rating></td>
+					<td>
+						<rating ng-model="skill.value" max="10" readonly="true"></rating>
+					</td>
 					<td translate>{{skill.description}}</td>
 				</tr>
 			</tbody>
 		</table>
+
+		<table class="table">
+			<tbody>
+				<tr>
+					<td class="borderno"><img ng-src="assets/img/icono-android.png" /></td>
+					<td class="borderno"><img ng-src="assets/img/icono-apple.png" /></td>
+					<td class="borderno">Github</td>
+					<td class="borderno">Páginas web</td>
+				</tr>
+				<tr>
+					<td><a href="#" translate>home.android_developer_account</a></td>
+					<td><a href="#" translate>home.ios_developer_account</a></td>
+					<td><a href="#" translate>home.github_link</a></td>
+					<td><a href="#" translate>home.web_link</a></td>
+				</tr>
+			</tbody>
+		</table>
+
+
 	</div>
 </div>
