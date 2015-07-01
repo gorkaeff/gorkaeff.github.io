@@ -4,12 +4,12 @@ angular.module('myApp.skillService', [])
 	var skills = [
 		{
 			name : "AngularJS", 
-			value: 8,
+			value: 9,
 			description : "home.description_angularjs"
 		},
 		{
-			name : "Phonegap", 
-			value: 8,
+			name : "PHONEGAP", 
+			value: 9,
 			description : "home.description_phonegap"
 		},
 		{
@@ -33,10 +33,32 @@ angular.module('myApp.skillService', [])
 			description : "home.description_rails"
 		}
 	];
+
+	var links = [
+		{
+			url : "https://play.google.com/store/apps/developer?id=MyG+Apps",
+			tag : "home.android_developer_account",
+		},
+		{
+			url : "https://itunes.apple.com/es/artist/marcos-luqui/id960990562",
+			tag : "home.ios_developer_account",
+		},
+		{
+			url : "https://github.com/gorkaeff",
+			tag : "home.github_link",
+		},
+		{
+			url : "http://myg.herokuapp.com",
+			tag : "home.web_link",
+		}
+	];
 	
 	return {
 		getSkills : function (){
 			return skills;
+		},
+		getSocialLinks : function (){
+			return links;
 		}
 	}
 });

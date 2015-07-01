@@ -32,10 +32,7 @@
 					<td class="borderno">Páginas web</td>
 				</tr>
 				<tr>
-					<td><a href="#" translate>home.android_developer_account</a></td>
-					<td><a href="#" translate>home.ios_developer_account</a></td>
-					<td><a href="#" translate>home.github_link</a></td>
-					<td><a href="#" translate>home.web_link</a></td>
+					<td ng-repeat="sl in socialLinks"><a href="{{sl.url}}" translate>{{sl.tag}}</a></td>
 				</tr>
 			</tbody>
 		</table>
