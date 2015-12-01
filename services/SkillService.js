@@ -23,6 +23,11 @@ angular.module('myApp.skillService', [])
 			description : "home.description_java"
 		},
 		{
+			name : "Laravel Framework 5.1", 
+			value: 6,
+			description : "home.description_php"
+		},
+		{
 			name : "PHP", 
 			value: 6,
 			description : "home.description_php"
