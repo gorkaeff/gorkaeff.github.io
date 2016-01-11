@@ -8,7 +8,7 @@
 		"contact" : "Contact"
 	},
  	"home" : {
- 		"slogan" : "Web sofware and mobile Developer",
+ 		"slogan" : "Software Developer Web (PHP & JAVA) and mobile Developer",
  		"skills" : "Software & languages most used for development",
  		"table_skill_name" :  "Skill",
  		"table_skill_value" : "knowledge",
@@ -26,6 +26,7 @@
 	},
 	"contact" : {
 		"title" : "Contact",
-		"subtitle" : "Contact information about developer" 
+		"subtitle" : "Contact with me:",
+		"send_email" : "Send e-mail to Gorka"
 	}
 }

@@ -8,7 +8,7 @@
 		"contact" : "Contacto"
 	},
  	"home" : {
- 		"slogan" : "Desarrollador de software web y multiplataforma",
+ 		"slogan" : "Desarrollador de Software Web (PHP y Java) y plataformas móviles híbridas",
  		"skills" : "Sofware / lenguages más utilizados para el desarrollo de aplicaciones",
  		"table_skill_name" :  "Tecnología",
  		"table_skill_value" : "Conocimientos",
@@ -26,6 +26,7 @@
 	},
 	"contact" : {
 		"title" : "Contacto",
-		"subtitle" : "Información de contacto del desarrollador" 
+		"subtitle" : "Puede contactar conmigo a través de este correo:",
+		"send_email": "Enviar e-mail a Gorka"
 	}
 }
