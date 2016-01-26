@@ -19,7 +19,7 @@ angular.module('myApp.skillService', [])
 			classIcon : "fa fa-github fa-2x"
 		},
 		{
-			url : "https://es.linkedin.com/in/gorka-jusu%C3%A9-martiarena-b584b230",
+			url : "https://www.linkedin.com/in/gorkajusue",
 			tag : "home.linkedin_account",
 			classIcon : "fa fa-linkedin fa-2x"
 		},
