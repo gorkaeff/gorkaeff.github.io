@@ -8,25 +8,19 @@
 		"contact" : "Contacto"
 	},
  	"home" : {
- 		"slogan" : "Desarrollador de Software Web (PHP y Java) y plataformas móviles híbridas",
- 		"skills" : "Sofware / lenguages más utilizados para el desarrollo de aplicaciones",
- 		"table_skill_name" :  "Tecnología",
- 		"table_skill_value" : "Conocimientos",
- 		"table_skill_description" : "Descripción",
- 		"description_angularjs" : "Descripción sobre AngularJS",
- 		"description_rails" : "Descripción sobre rails",
- 		"description_javascript" : "Descripción sobre javascript",
- 		"description_phonegap" : "Descripción sobre Phonegap",
- 		"description_java" : "Descripción sobre Java",
- 		"description_php" : "Descripción sobre PHP",
- 		"android_developer_account": "Cuenta desarrollador para Android",
- 		"ios_developer_account": "Cuenta desarrollador para iOS",
- 		"github_link" : "Cuenta de Github",
- 		"web_link" : "Páginas web"
+ 		"slogan" : "Desarrollador de software Web (PHP y Java) y plataformas móviles híbridas con phonegap",
+ 		"slogan_mini" : "Apasionado por las nuevas tecnologías y en constante aprendizaje de nuevos lenguajes o software para no quedarse atrás.<br /> He participado en muchos proyectos a lo largo de mi vida laboral, mayoritariamente en <b>Desarrollos JAVA</b> (Eclipse IDE, Maven, Spring, Hibernate, Oracle & MySQL), en <b>proyectos web PHP</b> (Framework Laravel y MySQL) y en la <b>creación de aplicaciones móviles multiplataforma</b> tanto en iOS como en Android (Phonegap & Cordova, AngularJS, Bootstrap, API REST...)<br /> Todos los proyectos con <b>control de versiones</b> (Git & SVN)",
+ 		"interest_links" : "Enlaces de interés",
+ 		"github_account" : "Cuenta personal en Github",
+ 		"android_account" : "Cuenta desarrollador Android",
+ 		"apple_account" : "Cuenta desarrollador iOS",
+ 		"linkedin_account" : "Perfil en linkedin",
+ 		"web_myg_account" : "Web MyG Apps",
+ 		"web_personal_account" : "Web Personal con projectos personales (API's)"
 	},
 	"contact" : {
 		"title" : "Contacto",
-		"subtitle" : "Puede contactar conmigo a través de este correo:",
+		"subtitle" : "Si quieres contactar conmigo para un puesto de trabajo o alguna idea que puedas tener, no dudes en escribirme a través de este correo:",
 		"send_email": "Enviar e-mail a Gorka"
 	}
 }

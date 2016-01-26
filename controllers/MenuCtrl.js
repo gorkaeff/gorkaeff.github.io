@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('myApp.menuCtrl', ['ngRoute'])
-.controller('MenuCtrl', function ($scope, $translate, MenuService, $log) {
+.controller('MenuCtrl', function ($scope, $translate, MenuService) {
 	$scope.spanish = navigator.language.substring(0,2) == "es" ? true : false;
 
 	var menuMock = MenuService.getMenu();

@@ -8,25 +8,19 @@
 		"contact" : "Contact"
 	},
  	"home" : {
- 		"slogan" : "Software Developer Web (PHP & JAVA) and mobile Developer",
- 		"skills" : "Software & languages most used for development",
- 		"table_skill_name" :  "Skill",
- 		"table_skill_value" : "knowledge",
- 		"table_skill_description" : "Description",
- 		"description_angularjs" : "Description about AngularJS",
- 		"description_rails" : "Description about rails",
- 		"description_javascript" : "Description about javascript",
- 		"description_phonegap" : "Description about Phonegap",
- 		"description_java" : "Description about Java",
- 		"description_php" : "Description about PHP",
- 		"android_developer_account": "Android Developer Account",
- 		"ios_developer_account": "iOS Developer Account",
- 		"github_link" : "Github Account",
- 		"web_link" : "Web Pages"
+ 		"slogan" : "Software Web Developer (PHP & Java) and mobile Developer with Phonegap",
+ 		"slogan_mini" : "Passionate about new technologies and constantly learning new languages or software.<br /> I have worked in many projects, mostly in <b>Java Development Projects</b> (Eclipse IDE, Maven, Spring, Hibernate, Oracle & MySQL), <b>Web PHP Projects</b> (Framework laravel and MySQL) and mobile hybrid applications both platforms like iOS and Android (Phonegap & Cordova, angularjs, Bootstrap, REST API ...).<br /> All projects with <b>version control</b> us Git & Subversion (SVN)",
+ 		"interest_links" : "Links about me",
+ 		"github_account" : "Github Personal Account",
+ 		"android_account" : "Android Personal Developer Account",
+ 		"apple_account" : "iOS Personal Developer Account",
+ 		"linkedin_account" : "Linkedin Profile",
+ 		"web_myg_account" : "Web MyG Apps",
+ 		"web_personal_account" : "Personal Web to hosting some projects (API's)"
 	},
 	"contact" : {
 		"title" : "Contact",
-		"subtitle" : "Contact with me:",
+		"subtitle" : "If you want to contact with me for work in your Company or you want to tell me your idea's project, send me an e-mail:",
 		"send_email" : "Send e-mail to Gorka"
 	}
 }
