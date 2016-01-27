@@ -20,7 +20,9 @@
  		"apple_account" : "Cuenta desarrollador iOS",
  		"linkedin_account" : "Perfil en linkedin",
  		"web_myg_account" : "Web MyG Apps",
- 		"web_personal_account" : "Web Personal con projectos personales (API's)"
+ 		"web_personal_account" : "Web Personal con projectos personales (API's)",
+ 		"description_projects" : "Me gustaría enseñarte varios de los proyectos tanto personales como los desarrollados en los que he participado en las empresas",
+ 		"see_projects" : "Ver proyectos"
 	},
 	"contact" : {
 		"title" : "Contacto",

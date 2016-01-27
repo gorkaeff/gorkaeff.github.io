@@ -33,6 +33,18 @@ body {
 	font-size: 13px;
 }
 
+.panel-heading{
+	background: #E6A422 !important;
+}
+
+.panel-title{
+	font-weight: bold;
+}
+
+.panel{
+	background: #F5EEE5;
+}
+
 .panel-body p{
 	font-size: 12px;
 }
@@ -50,4 +62,8 @@ body {
 .tagpersonal{
 	margin: 2px;
 	font-size: 13px;
+}
+
+.panel-projects{
+	margin-top: 10px;
 }

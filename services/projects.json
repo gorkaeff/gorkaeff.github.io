@@ -1,0 +1,312 @@
+{
+	"personal_projects" : [
+		{
+			"authors" : [
+				{"name" : "Gorka Jusue"}
+			],
+			"date" : "Enero 2016",
+			"description" : "Web personal para crear mi perfil en Internet y poder contactar conmigo tanto empresas como clientes",
+			"name" : "Web personal",
+			"tags" : [
+				{"name" : "Angular JS"},
+				{"name" : "Github"},
+				{"name" : "Bootstrap"},
+				{"name" : "JSON"},
+				{"name" : "Font-awesome"}
+			],
+			"type" : "Web",
+			"url" : "http://gorkaeff.github.io"
+		},
+
+		{
+			"authors" : [
+				{"name" : "Gorka Jusué"}
+			],
+			"date" : "Enero 2016",
+			"description" : "Web para votar por tu escudo favorito de fútbol",
+			"name" : "Escudosfutbol",
+			"tags" : [
+				{"name" : "Laravel 5.1"},
+				{"name" : "Github"},
+				{"name" : "Bootstrap"},
+				{"name" : "MySQL"},
+				{"name" : "Font-awesome"},
+				{"name" : "Hosting Gratuito"}
+			],
+			"type" : "Web",
+			"url" : "http://escudosfutbol.hol.es"
+		},
+
+		{
+			"authors" : [
+				{"name" : "Gorka Jusue"},
+				{"name" : "Marcos Luqui"}
+			],
+			"date" : "2015",
+			"description" : "Web corporativa con la tecnología Heroku y con el código disponible en Github. Realizada para mostrar los proyectos móviles que realizan [Gorka Jusue] y [Marcos Luqui]",
+			"name" : "Web Corporativa MyG Apps",
+			"tags" : [
+				{"name" : "Angular JS"},
+				{"name" : "Github"},
+				{"name" : "Bootstrap"},
+				{"name" : "JSON"},
+				{"name" : "Heroku"}
+			],
+			"type" : "Web",
+			"url" : "http://myg.herokuapp.com"
+		},
+
+		{
+			"authors" : [
+				{"name" : "Gorka Jusué"},
+				{"name" : "Marcos Luqui"},
+				{"name" : "MyG Apps"}
+			],
+			"date" : "2015",
+			"description" : "Aplicación móvil para mostrar los resultados del fútbol navarro, desde Tercera división hasta las categorias de regional",
+			"name" : "NavarraFutbolClic",
+			"tags" : [
+				{"name" : "Phonegap / Cordova"},
+				{"name" : "AngularJS"},
+				{"name" : "Ionic Framework"},
+				{"name" : "Android"},
+				{"name" : "iOS"}
+			],
+			"type" : "Movil",
+			"url_ios" : "",
+			"url_android" : "https://play.google.com/store/apps/details?id=com.ionicframework.navarrafutbolclic105680&hl=es"
+		},
+
+		{
+			"authors" : [
+				{"name" : "Gorka Jusué"},
+				{"name" : "Marcos Luqui"},
+				{"name" : "MyG Apps"}
+			],
+			"date" : "2015",
+			"description" : "Juego para el móvil que consiste en poner todas las casillas del tablero del mismo color",
+			"name" : "Super Flip",
+			"tags" : [
+				{"name" : "Phonegap / Cordova"},
+				{"name" : "AngularJS"},
+				{"name" : "Bootstrap"},
+				{"name" : "Android"},
+				{"name" : "iOS"}
+			],
+			"type" : "Movil",
+			"url_ios" : "",
+			"url_android" : "https://play.google.com/store/apps/details?id=com.herokuapp.myg.flip&hl=es"
+		},
+
+		{
+			"authors" : [
+				{"name" : "Gorka Jusué"},
+				{"name" : "Marcos Luqui"},
+				{"name" : "MyG Apps"}
+			],
+			"date" : "2015",
+			"description" : "Aplicación móvil que te adivina el número que estas pensando entre el 1 el 100",
+			"name" : "Number Guess",
+			"tags" : [
+				{"name" : "Phonegap / Cordova"},
+				{"name" : "AngularJS"},
+				{"name" : "Bootstrap"},
+				{"name" : "API REST Slim Framework"},
+				{"name" : "MySQL Backend"},
+				{"name" : "Android"},
+				{"name" : "iOS"}
+			],
+			"type" : "Movil",
+			"url_ios" : "",
+			"url_android" : "https://play.google.com/store/apps/details?id=com.herokuapp.myg.numberguess&hl=es"
+		},
+
+		{
+			"authors" : [
+				{"name" : "Gorka Jusué"},
+				{"name" : "Marcos Luqui"},
+				{"name" : "MyG Apps"}
+			],
+			"date" : "2015",
+			"description" : "Aplicación móvil que parsea los datos HTML de un gestor de torneos online y sirve para mostrar los resultados y clasificacion de las ligas de futbol sala femenino",
+			"name" : "Futsal Navarra",
+			"tags" : [
+				{"name" : "Phonegap / Cordova"},
+				{"name" : "AngularJS"},
+				{"name" : "Ionic Framework"},
+				{"name" : "Android"},
+				{"name" : "iOS"}
+			],
+			"type" : "Movil",
+			"url_ios" : "",
+			"url_android" : "https://play.google.com/store/apps/details?id=com.herokuapp.myg.futsalnav&hl=es"
+		},
+
+		{
+			"authors" : [
+				{"name" : "Gorka Jusué"}
+			],
+			"date" : "2014",
+			"description" : "Web para almacenar diferentes APIs y datos de mis proyectos móviles",
+			"name" : "Informático",
+			"tags" : [
+				{"name" : "HTML5"},
+				{"name" : "Bootstrap"},
+				{"name" : "Slim Framework (APIs)"},
+				{"name" : "JSON"},
+				{"name" : "AngularJS"},
+				{"name" : "Hosting Gratuito"}
+			],
+			"type" : "Web",
+			"url" : "http://informatico.hol.es"
+		}
+	],
+	"company_projects" : [
+		{
+			"authors" : [
+				{"name" : "Gorka Jusué"},
+				{"name" : "Kiaranet.com"}
+			],
+			"date" : "Diciembre 2015",
+			"description" : "Migración de intranet para una casa rural de Codeigniter (PHP) a un framework más actual",
+			"name" : "Intranet Ekain-Xokoa",
+			"tags" : [
+				{"name" : "Laravel 5.1"},
+				{"name" : "MySQL"},
+				{"name" : "Bootstrap"},
+				{"name" : "Mails personalizados"}
+			],
+			"type" : "Web",
+			"url" : "http://intranet.ekain-xokoa.com"
+		},
+
+		{
+			"authors" : [
+				{"name" : "Gorka Jusué"},
+				{"name" : "Kiaranet.com"}
+			],
+			"date" : "Noviembre 2015",
+			"description" : "Tienda on-line a medida para Neumáticos Aizoain con PHP y su carrito de compra",
+			"name" : "Neumáticos Aizoaín",
+			"tags" : [
+				{"name" : "Laravel 5.1"},
+				{"name" : "MySQL"},
+				{"name" : "API Externa"},
+				{"name" : "Bootstrap"},
+				{"name" : "Pasarela Redsys"}
+			],
+			"type" : "Web",
+			"url" : "http://www.neumaticosaizoain.com"
+		},
+
+		{
+			"authors" : [
+				{"name" : "Gorka Jusué"},
+				{"name" : "Kiaranet.com"}
+			],
+			"date" : "Octubre 2015",
+			"description" : "Gestor de contenidos interno para registrar comentarios y enviar notificaciones a aplicaciones de móvil dadas de alta en dicho gestor, consumiendo una API de notificaciones de la plataforma Telerik.",
+			"name" : "Sentusapp",
+			"tags" : [
+				{"name" : "Laravel 5.1"},
+				{"name" : "MySQL"},
+				{"name" : "API Notificaciones"},
+				{"name" : "Bootstrap"},
+				{"name" : "Platform Telerik"},
+				{"name" : "Phonegap / Cordova"}
+			],
+			"type" : "Web",
+			"url" : "http://www.sentusapp.com"
+		},
+
+		{
+			"authors" : [
+				{"name" : "Gorka Jusué"},
+				{"name" : "Kiaranet.com"}
+			],
+			"date" : "Enero 2016",
+			"description" : "Migrar la aplicación de la Tira de Oroz, una app móvil realizada en Sencha a Platform Telerik",
+			"name" : "La tira de Oroz",
+			"tags" : [
+				{"name" : "Platform Telerik"},
+				{"name" : "Phonegap / Cordova"},
+				{"name" : "AngularJS"},
+				{"name" : "Ratchet"},
+				{"name" : "Push Notification"},
+				{"name" : "Android"},
+				{"name" : "iOS"}
+			],
+			"type" : "Movil",
+			"url_ios" : "https://itunes.apple.com/es/app/id944217244?mt=8",
+			"url_android" : "https://play.google.com/store/apps/details?id=com.kiaranet.oroz&hl=es"
+		},
+
+		{
+			"authors" : [
+				{"name" : "Gorka Jusué"},
+				{"name" : "Kiaranet.com"}
+			],
+			"date" : "Diciembre 2015",
+			"description" : "Crear aplicación móvil que lee datos de una web Wordpress del colegio Liceo Monjardín",
+			"name" : "Liceo Monjardín",
+			"tags" : [
+				{"name" : "Platform Telerik"},
+				{"name" : "Phonegap / Cordova"},
+				{"name" : "AngularJS"},
+				{"name" : "Ratchet"},
+				{"name" : "Push Notification"},
+				{"name" : "Android"},
+				{"name" : "iOS"},
+				{"name" : "API Wordpress"}
+			],
+			"type" : "Movil",
+			"url_ios" : "https://itunes.apple.com/es/app/liceo-monjardin/id1071520720?mt=8",
+			"url_android" : "https://play.google.com/store/apps/details?id=com.kiaranet.liceomonjardinnet&hl=es"
+		},
+
+		{
+			"authors" : [
+				{"name" : "Gorka Jusué"},
+				{"name" : "Kiaranet.com"}
+			],
+			"date" : "Octubre 2015",
+			"description" : "Migrar aplicación anteriormente en Sencha, se realiza con Phonegap / Cordova en la plataforma de Telerik para consumir recursos JSON de una API de Wordpress y enviar notificaciones",
+			"name" : "Apyma Liceo Monjardín",
+			"tags" : [
+				{"name" : "Platform Telerik"},
+				{"name" : "Phonegap / Cordova"},
+				{"name" : "AngularJS"},
+				{"name" : "Ratchet"},
+				{"name" : "Push Notification"},
+				{"name" : "Android"},
+				{"name" : "iOS"},
+				{"name" : "API Wordpress"}
+			],
+			"type" : "Movil",
+			"url_ios" : "https://itunes.apple.com/es/app/apyma-liceo-monjardin/id980895202?mt=8",
+			"url_android" : "https://play.google.com/store/apps/details?id=com.kiaranet.liceomonjardin&hl=es"
+		},
+
+		{
+			"authors" : [
+				{"name" : "Gorka Jusué"},
+				{"name" : "Kiaranet.com"}
+			],
+			"date" : "Septiembre 2015",
+			"description" : "Migrar aplicación anteriormente en Sencha, se realiza con Phonegap / Cordova en la plataforma de Telerik",
+			"name" : "No hay billetes",
+			"tags" : [
+				{"name" : "Platform Telerik"},
+				{"name" : "Phonegap / Cordova"},
+				{"name" : "AngularJS"},
+				{"name" : "Ratchet"},
+				{"name" : "Push Notification"},
+				{"name" : "Android"},
+				{"name" : "iOS"}
+			],
+			"type" : "Movil",
+			"url_ios" : "https://itunes.apple.com/es/app/nohaybilletes/id980895962?mt=8",
+			"url_android" : "https://play.google.com/store/apps/details?id=com.kiaranet.nohaybilletes&hl=es"
+		}
+	]
+}

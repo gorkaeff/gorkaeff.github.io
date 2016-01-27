@@ -20,7 +20,9 @@
  		"apple_account" : "iOS Personal Developer Account",
  		"linkedin_account" : "Linkedin Profile",
  		"web_myg_account" : "Web MyG Apps",
- 		"web_personal_account" : "Personal Web to hosting some projects (API's)"
+ 		"web_personal_account" : "Personal Web to hosting some projects (API's)",
+		"description_projects" : "Visit my portfolio where you will see my personal project or my developments with other workmates in my jobs",
+ 		"see_projects" : "See projects"
 	},
 	"contact" : {
 		"title" : "Contact",

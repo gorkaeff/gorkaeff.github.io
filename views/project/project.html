@@ -1,5 +1,67 @@
 <div class="starter-template">
-	<div class="row">
-		<img style="width: 100%;" ng-src="http://sharonkgilbert.com/wp-content/uploads/2015/12/Under-construction.png" />
-	</div>
+	<h4>Proyectos en los que he participado</h4>
+	<p>A continuación se detalla los proyectos que he realizado o participado. Este listado se está obteniendo mediante un fichero JSON alojado en "services/projects.json".</p>
+	<tabset>
+		<tab heading="Personales ({{projects.personal_projects.length}})">
+			<div class="row">
+				<div ng-repeat="pp in projects.personal_projects" class="col-md-4">
+					<div class="panel panel-default panel-projects">
+						<div class="panel-heading">
+							<h3 class="panel-title">{{pp.name}} ({{pp.type}})</h3>
+						</div>
+						<div class="panel-body">
+							<p>{{pp.description}}</p>
+
+							<div ng-if="pp.type == 'Web'">
+								<p><a href="{{pp.url}}">{{pp.url}}</a></p>	
+							</div>
+
+							<div ng-if="pp.type != 'Web'">
+								<p><a href="{{pp.url_ios}}">{{pp.url_ios}}</a></p>
+								<p><a href="{{pp.url_android}}">{{pp.url_android}}</a></p>	
+							</div>
+							
+							<p>
+								<div ng-repeat="author in pp.authors">
+									{{author.name}} ,
+								</div>
+							</p>
+							<p>{{pp.date}}</p>
+							<span class="label label-default tagpersonal" ng-repeat="tag in pp.tags">{{tag.name}}</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</tab>
+
+		<tab heading="En empresas ({{projects.company_projects.length}})">
+			<div class="row">
+				<div ng-repeat="pp in projects.company_projects" class="col-md-4">
+					<div class="panel panel-default panel-projects">
+						<div class="panel-heading">
+							<h3 class="panel-title">{{pp.name}} ({{pp.type}})</h3>
+						</div>
+						<div class="panel-body">
+							<p>{{pp.description}}</p>
+							<div ng-if="pp.type == 'Web'">
+								<p><a href="{{pp.url}}">{{pp.url}}</a></p>	
+							</div>
+
+							<div ng-if="pp.type != 'Web'">
+								<p><a href="{{pp.url_ios}}">{{pp.url_ios}}</a></p>
+								<p><a href="{{pp.url_android}}">{{pp.url_android}}</a></p>	
+							</div>
+							<p>
+								<div ng-repeat="author in pp.authors">
+									{{author.name}} ,
+								</div>
+							</p>
+							<p>{{pp.date}}</p>
+							<span class="label label-default tagpersonal" ng-repeat="tag in pp.tags">{{tag.name}}</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</tab>
+	</tabset>
 </div>

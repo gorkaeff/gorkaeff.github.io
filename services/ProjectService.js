@@ -1,14 +1,9 @@
 angular.module('myApp.projectService', [])
 //---------------------------------------------------------------------------------------------------------------
-.factory('ProjectService', function () {
-
-	var projects = [
-		{}
-	];
-	
+.factory('ProjectService', function ($http) {	
 	return {
 		getProjects : function(){
-			return projects;
+			return $http.get('services/projects.json');
 		}
 	}
 });
