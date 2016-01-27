@@ -5,9 +5,11 @@ angular.module('myApp', [
 	'ngRoute',
 	'myApp.menuCtrl',
 	'myApp.homeCtrl',
+	'myApp.projectCtrl',
 	'myApp.contactCtrl',
 	'myApp.menuService',
 	'myApp.skillService',
+	'myApp.projectService',
 	'ui.bootstrap',
 	'myApp.directives',
 	'pascalprecht.translate'

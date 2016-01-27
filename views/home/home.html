@@ -11,18 +11,52 @@
 		<hr />
 
 		<div class="row">
-			<div class="col-md-12">
+
+			<!-- Etiquetas -->
+			<div class="col-md-4">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title" translate>home.software_title</h3>
+					</div>
+					<div class="panel-body">
+						<p translate>home.software_gorka</p>
+						<span class="label {{tag.label}} tagpersonal" ng-repeat="tag in myTags">{{tag.name}}</span>
+					</div>
+				</div>
+			</div>
+
+			<!-- Proyectos -->
+			<div class="col-md-4">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title" translate>home.projects_title</h3>
+					</div>
+					<div class="panel-body">
+						<a href="#/project" translate>menu.projects</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Enlaces -->
+			<div class="col-md-4">
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						<h3 class="panel-title" translate>home.interest_links</h3>
 					</div>
 					<div class="panel-body">
-						<div ng-repeat="sl in socialLinks">
-							<i class="{{sl.classIcon}}"></i><a href="{{sl.url}}" translate>{{sl.tag}}</a><br />
+						<div class="row" ng-repeat="sl in socialLinks">
+							<div class="col-md-1">
+								<i class="{{sl.classIcon}}"></i>
+							</div>
+							<div class="col-md-10">
+								<a href="{{sl.url}}" translate>{{sl.tag}}</a>
+							</div>
+							
 						</div>
 					</div>
 				</div>
 			</div>
+
 		</div>
 
 	</div>

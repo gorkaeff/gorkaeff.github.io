@@ -33,6 +33,21 @@ body {
 	font-size: 13px;
 }
 
-.panel-body i{
-    margin-right: 10px;
+.panel-body p{
+	font-size: 12px;
+}
+
+.panel-body span{
+	float: left;
+}
+
+.panel-body .row .col-md-10{
+	font-size: 12px;
+	text-align: left;
+	margin: 8px 0 0 10px;
+}
+
+.tagpersonal{
+	margin: 2px;
+	font-size: 13px;
 }

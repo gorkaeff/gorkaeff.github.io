@@ -11,4 +11,5 @@ angular.module('myApp.homeCtrl', ['ngRoute'])
 
 .controller('HomeCtrl', function($scope, $translate, SkillService) {
 	$scope.socialLinks = SkillService.getSocialLinks();
+	$scope.myTags = SkillService.getAllTags();
 });

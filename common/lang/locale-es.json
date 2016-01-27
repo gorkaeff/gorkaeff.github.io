@@ -5,12 +5,16 @@
 	"menu" : {
 		"titleProject" : "gorkaeff.github.io",
 		"home" : "Inicio",
+		"projects" : "Proyectos",
 		"contact" : "Contacto"
 	},
  	"home" : {
  		"slogan" : "Desarrollador de software Web (PHP y Java) y plataformas móviles híbridas con phonegap",
  		"slogan_mini" : "Apasionado por las nuevas tecnologías y en constante aprendizaje de nuevos lenguajes o software para no quedarse atrás.<br /> He participado en muchos proyectos a lo largo de mi vida laboral, mayoritariamente en <b>Desarrollos JAVA</b> (Eclipse IDE, Maven, Spring, Hibernate, Oracle & MySQL), en <b>proyectos web PHP</b> (Framework Laravel y MySQL) y en la <b>creación de aplicaciones móviles multiplataforma</b> tanto en iOS como en Android (Phonegap & Cordova, AngularJS, Bootstrap, API REST...)<br /> Todos los proyectos con <b>control de versiones</b> (Git & SVN)",
  		"interest_links" : "Enlaces de interés",
+ 		"software_title" : "Mis etiquetas",
+ 		"software_gorka" : "Lenguajes de programación, software y otras herramientas empleadas en mis puestos de trabajo y en mi día a día.",
+ 		"projects_title" : "Mis proyectos",
  		"github_account" : "Cuenta personal en Github",
  		"android_account" : "Cuenta desarrollador Android",
  		"apple_account" : "Cuenta desarrollador iOS",

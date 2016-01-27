@@ -5,12 +5,16 @@
 	"menu" : {
 		"titleProject" : "gorkaeff.github.io",
 		"home" : "Home",
+		"projects" : "Projects",
 		"contact" : "Contact"
 	},
  	"home" : {
  		"slogan" : "Software Web Developer (PHP & Java) and mobile Developer with Phonegap",
  		"slogan_mini" : "Passionate about new technologies and constantly learning new languages or software.<br /> I have worked in many projects, mostly in <b>Java Development Projects</b> (Eclipse IDE, Maven, Spring, Hibernate, Oracle & MySQL), <b>Web PHP Projects</b> (Framework laravel and MySQL) and mobile hybrid applications both platforms like iOS and Android (Phonegap & Cordova, angularjs, Bootstrap, REST API ...).<br /> All projects with <b>version control</b> us Git & Subversion (SVN)",
- 		"interest_links" : "Links about me",
+ 		"interest_links" : "My Links",
+ 		"software_title" : "My Tags",
+ 		"software_gorka" : "Programming languages, software or others skills in my jobs",
+ 		"projects_title" : "My Projects",
  		"github_account" : "Github Personal Account",
  		"android_account" : "Android Personal Developer Account",
  		"apple_account" : "iOS Personal Developer Account",

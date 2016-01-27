@@ -6,6 +6,7 @@ angular.module('myApp.menuService', [])
 		titleProject : "menu.titleProject",
 		menu : [
 			{url : "#/", tag : "menu.home"},
+			{url : "#/project", tag : "menu.projects"},
 			{url : "#/contact", tag : "menu.contact"}
 		]
 	};
