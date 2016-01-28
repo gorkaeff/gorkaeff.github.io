@@ -1,13 +1,13 @@
 <div class="starter-template">
-	<h4>Proyectos en los que he participado</h4>
-	<p>A continuación se detalla los proyectos que he realizado o participado. Este listado se está obteniendo mediante un fichero JSON alojado en "services/projects.json".</p>
+	<h4 translate>project.title</h4>
+	<p translate>project.subtitle</p>
 	<tabset>
 
-		<tab heading="Personales ({{filterPersonal.length}})">
+		<tab heading="{{'project.personal' | translate}} ({{filterPersonal.length}})">
 
 			<div class="row">
 				<div class="col-md-12">
-					<input type="text" class="form-control" ng-model="filterProjectPersonal" placeholder="Filtrar proyecto personal...">
+					<input type="text" class="form-control" ng-model="filterProjectPersonal" placeholder="{{'project.placeholder_personal' | translate}}">
 				</div>
 			</div>
 
@@ -15,44 +15,46 @@
 				<div ng-repeat="pp in filterPersonal = (projects.personal_projects | filter:filterProjectPersonal)" class="col-md-4">
 					<div class="panel panel-default panel-projects">
 						<div class="panel-heading">
-							<h3 class="panel-title">{{pp.name}} ({{pp.type}})</h3>
+							<h3 class="panel-title"><i ng-class="(pp.type == 'Web' ? 'fa fa-desktop fa-2x' : 'fa fa-mobile fa-2x')"></i> {{pp.name}}</h3>
 						</div>
 						<div class="panel-body">
-							<p>{{pp.description}}</p>
+							<p><i class="fa fa-info-circle fa-2x"></i> {{pp.description}}</p>
 
 							<div ng-if="pp.type == 'Web'">
 								<p><a href="{{pp.url}}">{{pp.url}}</a></p>	
 							</div>
 
 							<div ng-if="pp.type != 'Web'">
-								<p><a href="{{pp.url_ios}}">{{pp.url_ios}}</a></p>
-								<p><a href="{{pp.url_android}}">{{pp.url_android}}</a></p>	
+								<p><i class="fa fa-apple fa-2x"></i><a href="{{pp.url_ios}}">Link iOS</a></p>
+								<p><i class="fa fa-android fa-2x"></i><a href="{{pp.url_android}}">Link Android</a></p>	
 							</div>
 							
 							<p>
 								<div ng-repeat="author in pp.authors">
-									{{author.name}} ,
+									<i class="fa fa-user"></i> {{author.name}} ,
 								</div>
 							</p>
-							<p>{{pp.date}}</p>
-							<span class="label label-default tagpersonal" ng-repeat="tag in pp.tags">{{tag.name}}</span>
+							<p><i class="fa fa-calendar"></i>{{pp.date}}</p>
+							<span class="label label-default tagpersonal" ng-repeat="tag in pp.tags">
+								<i class="fa fa-tag"></i> {{tag.name}}
+							</span>
 						</div>
 					</div>
 				</div>
 			</div>
 
 			<div ng-show="filterPersonal.length == 0">
-				<div class="alert alert-danger" role="alert">
-					No se han encontrado proyectos en la web con lo que estás buscando
+				<div class="alert alert-warning" role="alert" translate>
+					project.no_results
 				</div>
 			</div>
 		</tab>
 
-		<tab heading="En empresas ({{filterEmpresas.length}})">
+		<tab heading="{{'project.company' | translate}}  ({{filterEmpresas.length}})">
 
 			<div class="row">
 				<div class="col-md-12">
-					<input type="text" class="form-control" ng-model="filterProjectCompany" placeholder="Filtrar proyecto en empresa...">
+					<input type="text" class="form-control" ng-model="filterProjectCompany" placeholder="{{'project.placeholder_company' | translate}}">
 				</div>
 			</div>
 
@@ -60,33 +62,35 @@
 				<div ng-repeat="pp in filterEmpresas = (projects.company_projects | filter:filterProjectCompany)" class="col-md-4">
 					<div class="panel panel-default panel-projects">
 						<div class="panel-heading">
-							<h3 class="panel-title">{{pp.name}} ({{pp.type}})</h3>
+							<h3 class="panel-title"><i ng-class="(pp.type == 'Web' ? 'fa fa-desktop fa-2x' : 'fa fa-mobile fa-2x')"></i> {{pp.name}}</h3>
 						</div>
 						<div class="panel-body">
-							<p>{{pp.description}}</p>
+							<p><i class="fa fa-info-circle fa-2x"></i> {{pp.description}}</p>
 							<div ng-if="pp.type == 'Web'">
 								<p><a href="{{pp.url}}">{{pp.url}}</a></p>	
 							</div>
 
 							<div ng-if="pp.type != 'Web'">
-								<p><a href="{{pp.url_ios}}">{{pp.url_ios}}</a></p>
-								<p><a href="{{pp.url_android}}">{{pp.url_android}}</a></p>	
+								<p><i class="fa fa-apple fa-2x"></i><a href="{{pp.url_ios}}">Link iOS</a></p>
+								<p><i class="fa fa-android fa-2x"></i><a href="{{pp.url_android}}">Link Android</a></p>	
 							</div>
 							<p>
 								<div ng-repeat="author in pp.authors">
-									{{author.name}} ,
+									<i class="fa fa-user"></i>{{author.name}} ,
 								</div>
 							</p>
-							<p>{{pp.date}}</p>
-							<span class="label label-default tagpersonal" ng-repeat="tag in pp.tags">{{tag.name}}</span>
+							<p><i class="fa fa-calendar"></i>{{pp.date}}</p>
+							<span class="label label-default tagpersonal" ng-repeat="tag in pp.tags">
+								<i class="fa fa-tag"></i> {{tag.name}}
+							</span>
 						</div>
 					</div>
 				</div>
 			</div>
 
 			<div ng-show="filterEmpresas.length == 0">
-				<div class="alert alert-danger" role="alert">
-					No se han encontrado proyectos con lo que estás buscando
+				<div class="alert alert-warning" role="alert" translate>
+					project.no_results
 				</div>
 			</div>
 		</tab>

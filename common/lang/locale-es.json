@@ -1,7 +1,4 @@
 {
-	"general" : {
-	
-	},
 	"menu" : {
 		"titleProject" : "gorkaeff.github.io",
 		"home" : "Inicio",
@@ -24,6 +21,15 @@
  		"description_projects" : "Me gustaría enseñarte varios de los proyectos tanto personales como los desarrollados en los que he participado en las empresas",
  		"see_projects" : "Ver proyectos"
 	},
+	"project" : {
+		"personal" : "Personales",
+		"company" : "En empresas",
+		"placeholder_personal" : "Filtrar proyecto personal...",
+		"placeholder_company" : "Filtrar proyecto en empresa...",
+		"title" : "Proyectos en los que he participado",
+		"subtitle" : "A continuación se detalla los proyectos que he realizado o participado. Este listado se está obteniendo mediante un fichero JSON alojado en 'services/projects.json'.",
+		"no_results" : "No se han encontrado proyectos en la web con lo que estás buscando"
+ 	},
 	"contact" : {
 		"title" : "Contacto",
 		"subtitle" : "Si quieres contactar conmigo para un puesto de trabajo o alguna idea que puedas tener, no dudes en escribirme a través de este correo:",
