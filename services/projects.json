@@ -159,8 +159,25 @@
 			],
 			"type" : "Web",
 			"url" : "http://informatico.hol.es"
+		},
+
+		{
+			"authors" : [
+				{"name" : "Gorka Jusue"},
+				{"name" : "Marcos Luqui"}
+			],
+			"date" : "2013",
+			"description" : "Web para clienta que posee un negocio de Bordados, donde poder mostrar sus productos y trabajos realizados",
+			"name" : "Bordados Inés",
+			"tags" : [
+				{"name" : "Wordpress"},
+				{"name" : "MySQL"}
+			],
+			"type" : "Web",
+			"url" : "http://borda2ines.hol.es/"
 		}
 	],
+	
 	"company_projects" : [
 		{
 			"authors" : [

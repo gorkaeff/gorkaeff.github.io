@@ -67,3 +67,13 @@ body {
 .panel-projects{
 	margin-top: 10px;
 }
+
+.row input{
+	margin-top: 10px;
+}
+
+.alert{
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}

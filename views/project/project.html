@@ -2,9 +2,17 @@
 	<h4>Proyectos en los que he participado</h4>
 	<p>A continuación se detalla los proyectos que he realizado o participado. Este listado se está obteniendo mediante un fichero JSON alojado en "services/projects.json".</p>
 	<tabset>
-		<tab heading="Personales ({{projects.personal_projects.length}})">
+
+		<tab heading="Personales ({{filterPersonal.length}})">
+
 			<div class="row">
-				<div ng-repeat="pp in projects.personal_projects" class="col-md-4">
+				<div class="col-md-12">
+					<input type="text" class="form-control" ng-model="filterProjectPersonal" placeholder="Filtrar proyecto personal...">
+				</div>
+			</div>
+
+			<div class="row">
+				<div ng-repeat="pp in filterPersonal = (projects.personal_projects | filter:filterProjectPersonal)" class="col-md-4">
 					<div class="panel panel-default panel-projects">
 						<div class="panel-heading">
 							<h3 class="panel-title">{{pp.name}} ({{pp.type}})</h3>
@@ -32,11 +40,24 @@
 					</div>
 				</div>
 			</div>
+
+			<div ng-show="filterPersonal.length == 0">
+				<div class="alert alert-danger" role="alert">
+					No se han encontrado proyectos en la web con lo que estás buscando
+				</div>
+			</div>
 		</tab>
 
-		<tab heading="En empresas ({{projects.company_projects.length}})">
+		<tab heading="En empresas ({{filterEmpresas.length}})">
+
 			<div class="row">
-				<div ng-repeat="pp in projects.company_projects" class="col-md-4">
+				<div class="col-md-12">
+					<input type="text" class="form-control" ng-model="filterProjectCompany" placeholder="Filtrar proyecto en empresa...">
+				</div>
+			</div>
+
+			<div class="row">
+				<div ng-repeat="pp in filterEmpresas = (projects.company_projects | filter:filterProjectCompany)" class="col-md-4">
 					<div class="panel panel-default panel-projects">
 						<div class="panel-heading">
 							<h3 class="panel-title">{{pp.name}} ({{pp.type}})</h3>
@@ -60,6 +81,12 @@
 							<span class="label label-default tagpersonal" ng-repeat="tag in pp.tags">{{tag.name}}</span>
 						</div>
 					</div>
+				</div>
+			</div>
+
+			<div ng-show="filterEmpresas.length == 0">
+				<div class="alert alert-danger" role="alert">
+					No se han encontrado proyectos con lo que estás buscando
 				</div>
 			</div>
 		</tab>
