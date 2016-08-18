@@ -38,7 +38,7 @@ angular.module('myApp.skillService', [])
 	var tags = [
 		{name : "Java", label: "label-default"},
 		{name : "Javascript (AngularJS 1.x)", label: "label-default"},
-		{name : "PHP (Laravel 5.1)", label: "label-default"},
+		{name : "PHP (Laravel 5.X)", label: "label-default"},
 		{name : "JQuery", label: "label-default"},
 		{name : "C#", label: "label-default"},
 		{name : "Phonegap / Cordova", label: "label-primary"},
