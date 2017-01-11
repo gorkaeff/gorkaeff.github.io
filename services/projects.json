@@ -2,6 +2,25 @@
 	"personal_projects" : [
 		{
 			"authors" : [
+				{"name" : "Gorka Jusue"},
+				{"name" : "Marcos Luqui"}
+			],
+			"date" : "Septiembre 2016",
+			"description" : "Web y aplicación Android e iOS sobre resultados de fútbol navarro",
+			"name" : "Gol Navarro",
+			"tags" : [
+				{"name" : "Wordpress"},
+				{"name" : "Ionic Framework"},
+				{"name" : "Android"},
+				{"name" : "iOS"},
+				{"name" : "API"}
+			],
+			"type" : "Web",
+			"url" : "http://www.golnavarro.es"
+		},
+
+		{
+			"authors" : [
 				{"name" : "Gorka Jusue"}
 			],
 			"date" : "Enero 2016",

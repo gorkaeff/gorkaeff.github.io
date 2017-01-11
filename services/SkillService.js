@@ -37,11 +37,15 @@ angular.module('myApp.skillService', [])
 
 	var tags = [
 		{name : "Java", label: "label-default"},
-		{name : "Javascript (AngularJS 1.x)", label: "label-default"},
+		{name : "Javascript", label: "label-default"},
+		{name : "AngularJS 1.X", label: "label-default"},
 		{name : "PHP (Laravel 5.X)", label: "label-default"},
 		{name : "JQuery", label: "label-default"},
 		{name : "C#", label: "label-default"},
+		{name : "Velocity", label: "label-default"},
+		{name : "API Rest", label: "label-primary"},
 		{name : "Phonegap / Cordova", label: "label-primary"},
+		{name : "Ionic Framework", label: "label-primary"},
 		{name : "MySQL", label: "label-primary"},
 		{name : "Eclipse IDE", label: "label-primary"},
 		{name : "XCode IDE", label: "label-primary"},
@@ -49,15 +53,19 @@ angular.module('myApp.skillService', [])
 		{name : "Sublime Text", label: "label-primary"},
 		{name : "Linux Ubuntu 14", label: "label-primary"},
 		{name : "Mac", label: "label-primary"},
+		{name : "Jira", label: "label-primary"},
 		{name : "Platform Telerik", label: "label-primary"},
 		{name : "Wordpress", label: "label-info"},
 		{name : "HTML5", label: "label-info"},
 		{name : "CSS", label: "label-info"},
-		{name : "Android (Phonegap)", label: "label-info"},
-		{name : "iOS (Phonegap)", label: "label-info"},
-		{name : "Git", label: "label-info"},
+		{name : "Android (Hibrid)", label: "label-info"},
+		{name : "iOS (Hibrid)", label: "label-info"},
+		{name : "Apple Store & Play Store Google Apps", label: "label-info"},
+		{name : "GIT", label: "label-info"},
 		{name : "Subversion (SVN)", label: "label-info"},
-		{name : "Github", label: "label-info"}
+		{name : "Github", label: "label-info"},
+		{name : "TFS", label: "label-info"},
+		{name : "Scrum", label: "label-info"}
 	];
 	
 	return {
