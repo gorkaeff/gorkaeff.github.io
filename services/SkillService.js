@@ -43,20 +43,26 @@ angular.module('myApp.skillService', [])
 		{name : "JQuery", label: "label-default"},
 		{name : "C#", label: "label-default"},
 		{name : "Velocity", label: "label-default"},
+		{name : "XML", label: "label-default"},
+		{name : "XSLT", label: "label-default"},
 		{name : "API Rest", label: "label-primary"},
 		{name : "Phonegap / Cordova", label: "label-primary"},
 		{name : "Ionic Framework", label: "label-primary"},
 		{name : "MySQL", label: "label-primary"},
 		{name : "Eclipse IDE", label: "label-primary"},
 		{name : "XCode IDE", label: "label-primary"},
-		{name : "Visual Studio 2012", label: "label-primary"},
+		{name : "Visual Studio", label: "label-primary"},
 		{name : "Sublime Text", label: "label-primary"},
 		{name : "Linux Ubuntu 14", label: "label-primary"},
 		{name : "Mac", label: "label-primary"},
-		{name : "Jira", label: "label-primary"},
+		{name : "JIRA", label: "label-primary"},
 		{name : "Platform Telerik", label: "label-primary"},
 		{name : "Wordpress", label: "label-info"},
 		{name : "HTML5", label: "label-info"},
+		{name : "Hibernate", label: "label-info"},
+		{name : "Tomcat", label: "label-info"},
+		{name : "Oracle", label: "label-info"},
+		{name : "JSP", label: "label-info"},
 		{name : "CSS", label: "label-info"},
 		{name : "Android (Hibrid)", label: "label-info"},
 		{name : "iOS (Hibrid)", label: "label-info"},
@@ -65,7 +71,7 @@ angular.module('myApp.skillService', [])
 		{name : "Subversion (SVN)", label: "label-info"},
 		{name : "Github", label: "label-info"},
 		{name : "TFS", label: "label-info"},
-		{name : "Scrum", label: "label-info"}
+		{name : "SCRUM", label: "label-info"}
 	];
 	
 	return {
